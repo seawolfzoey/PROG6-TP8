@@ -4,6 +4,8 @@
 
 #define TAILLE_BUFFER 128
 
+// HELLO GIT
+
 void aide()
 {
   fprintf(stderr,"Aide :\n");

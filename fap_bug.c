@@ -2,6 +2,11 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+int count(int i, int j)
+{
+	return j+i;
+}
+
 fap creer_fap_vide()
 {
   return NULL;
@@ -63,6 +68,11 @@ int est_fap_vide(fap f)
 void
 detruire_fap(fap f)
 {
-  if (f != NULL)
-      free(f);
+  fap tmp;
+  while (f != NULL)
+    {
+      tmp = f;
+      f = f->prochain;
+      free(tmp);
+    }
 }

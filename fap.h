@@ -1,6 +1,6 @@
 #ifndef __FAP_H__
 #define __FAP_H__
-
+#define test 1 
 struct maillon;
 
 typedef struct maillon *fap;

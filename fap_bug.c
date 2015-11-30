@@ -2,10 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-int count(int i, int j)
-{
-	return j+i;
-}
+
 
 fap creer_fap_vide()
 {

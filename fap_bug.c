@@ -2,6 +2,13 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+int count(int i, int j)
+{
+	int res = i;
+	res = res + i -i + j;
+	return	res;
+}
+
 fap creer_fap_vide()
 {
   return NULL;
